@@ -1,0 +1,20 @@
+# Archivos temporales y de auto-guardado de KiCad
+*.bak
+*-bak
+_autosave-*
+*.tmp
+*.lck
+*.gbrjob
+*.history/
+
+# Cache de librerias locales
+fp-info-cache
+
+# Archivos de preferencias de usuario (No deben compartirse)
+*.kicad_prl
+
+# Archivos comprimidos (Si haces backups manuales ZIP, no deben subir a Git)
+*.zip
+
+# Imagenes
+*.png
