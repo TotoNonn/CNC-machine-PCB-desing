@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB-MCU-V1.kicad_pro",
+    "filename": "PCB-MCU.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -736,8 +736,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB-MCU-V1.kicad_sch",
-        "name": "PCB-MCU-V1",
+        "filename": "PCB-MCU.kicad_sch",
+        "name": "PCB-MCU",
         "uuid": "3d8bb6f2-1a17-4a2e-a0a6-49d0b85e1194"
       }
     ],

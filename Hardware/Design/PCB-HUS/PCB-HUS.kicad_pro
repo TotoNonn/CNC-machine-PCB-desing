@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB-HUS-V1.kicad_pro",
+    "filename": "PCB-HUS.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -671,8 +671,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB-HUS-V1.kicad_sch",
-        "name": "PCB-HUS-V1",
+        "filename": "PCB-HUS.kicad_sch",
+        "name": "PCB-HUS",
         "uuid": "2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
       }
     ],

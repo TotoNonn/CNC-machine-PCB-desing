@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB-END-V1.kicad_pro",
+    "filename": "PCB-END.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -676,8 +676,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB-END-V1.kicad_sch",
-        "name": "PCB-END-V1",
+        "filename": "PCB-END.kicad_sch",
+        "name": "PCB-END",
         "uuid": "ef8ab4ca-9dd9-4116-ba43-5bbb157b03f2"
       }
     ],
