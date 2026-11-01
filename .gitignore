@@ -15,6 +15,3 @@ fp-info-cache
 
 # Archivos comprimidos (Si haces backups manuales ZIP, no deben subir a Git)
 *.zip
-
-# Imagenes
-*.png

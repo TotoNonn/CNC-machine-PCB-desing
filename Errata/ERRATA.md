@@ -6,11 +6,11 @@ In the first version, the error that I found was a problem with the drivers. The
 
 In KiCad my symbol and footprint are exactly the same, then I put the pin UART from the ESP32 to the pin named as a RX in the image (in KiCad the pin name is UART) 
 
-![Symbol in KiCad](image.png)
+![Symbol in KiCAD](<TMC 2209 KiCAD Symbol.png>)
 
 Here is a correct PINOUT of the TMC 2209 V985 module. I found this in a [Arduino forum](https://forum.arduino.cc/t/trouble-getting-tmc2209-uart-work-with-arduino/1410038/9).
 
-![PINOUT of the TMC 2209 V985 module](image-1.png)
+![PINOUT of the TMC 2209 V985 module](<TMC 2209 v985.png>)
 
 Fine, I just remove the R1 in PCB_DRV and replace with a wire and I made a short betwen pin 12 and 13 in TMC 2209 V985 module because the pin 12 is not conected to the chip in the module I comprobe that whit a multimeter in continuity also I added the reistor betwen RX2 and TX2 in the ESP32 for UART comunication.
 
@@ -18,5 +18,4 @@ Fine, I just remove the R1 in PCB_DRV and replace with a wire and I made a short
 In the second version you can use both of drivers, i made a pin configuration for set the type of driver, for example if you use the silentstepstick driver you can put a jumper in J8 betwen pin 2 and pin 3 but if you use the V895 driver you should to put the jumper betwen the pin 1 and the pin 2.
 Here is the configuration.
 
-![Pin set configuration](PCB_DRV_V2_PINSET-1.png)
- 
+![Pin set configuration](PCB_DRV_V2_PINSET.png)

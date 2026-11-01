@@ -1622,7 +1622,7 @@
 		)
 		(uuid "f0922fe1-baa0-4660-ab4d-d2af841f1bd0")
 	)
-	(global_label "GPIO4_ESP32"
+	(global_label "PWM"
 		(shape input)
 		(at 30.48 25.4 0)
 		(fields_autoplaced yes)
@@ -1634,7 +1634,7 @@
 		)
 		(uuid "5db5ec44-1b7e-4881-aa55-f7c865482332")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.1651 25.4 0)
+			(at 37.638 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1670,7 +1670,7 @@
 			)
 		)
 	)
-	(global_label "GPIO4_ESP32"
+	(global_label "PWM"
 		(shape output)
 		(at 106.68 25.4 180)
 		(fields_autoplaced yes)
@@ -1682,7 +1682,7 @@
 		)
 		(uuid "be0e21f6-bd05-4cc5-93bb-caf7c9a464b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.9949 25.4 0)
+			(at 99.522 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1789,7 +1789,7 @@
 			(uuid "6d0721e2-7652-4d38-a886-ed588cfaa250")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "R1")
 					(unit 1)
@@ -1870,7 +1870,7 @@
 			(uuid "f488dc61-965e-4227-aca4-e7bb269431fa")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "J3")
 					(unit 1)
@@ -1948,7 +1948,7 @@
 			(uuid "3afd597b-260a-47e6-b50c-531cb8ad24c8")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "#PWR04")
 					(unit 1)
@@ -2026,7 +2026,7 @@
 			(uuid "be251d97-c6e2-43f4-8025-4a237cdef297")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "#PWR03")
 					(unit 1)
@@ -2104,7 +2104,7 @@
 			(uuid "404a68de-ee6b-47b4-bc22-dc972c5389d2")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "#PWR02")
 					(unit 1)
@@ -2185,7 +2185,7 @@
 			(uuid "f741102a-0dc7-40c5-995a-0fd1df5e3388")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "J4")
 					(unit 1)
@@ -2266,7 +2266,7 @@
 			(uuid "7bee04e0-b41d-4e73-9bc8-17394c4abbd3")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "J2")
 					(unit 1)
@@ -2354,7 +2354,7 @@
 			(uuid "984aa01e-8a4e-4ee7-9beb-5ac1a78159f0")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "Q1")
 					(unit 1)
@@ -2436,7 +2436,7 @@
 			(uuid "e3b525e5-80e0-47af-8680-05ffa11e5e8d")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "R2")
 					(unit 1)
@@ -2517,7 +2517,7 @@
 			(uuid "4902ba1a-610a-492c-bac1-06cf8f0a8fbf")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "J1")
 					(unit 1)
@@ -2595,7 +2595,7 @@
 			(uuid "96552542-a00e-4cc5-b409-c522d3293a8b")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "#PWR06")
 					(unit 1)
@@ -2677,7 +2677,7 @@
 			(uuid "dd83434a-bbcb-4b9d-8a09-63aab088b687")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "R3")
 					(unit 1)
@@ -2759,7 +2759,7 @@
 			(uuid "794723bb-bc16-4f48-b4e7-8fddd629beb3")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "D1")
 					(unit 1)
@@ -2848,7 +2848,7 @@
 			(uuid "08f734d1-9801-45d2-a33b-af8a6c7600a0")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "U1")
 					(unit 1)
@@ -2926,7 +2926,7 @@
 			(uuid "6b516544-c284-4758-88ad-78e8e55f5426")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "#PWR05")
 					(unit 1)
@@ -3004,7 +3004,7 @@
 			(uuid "4607ba22-1f53-4486-bc86-cbf05549881d")
 		)
 		(instances
-			(project "PCB-HUS-V1"
+			(project "PCB-HUS"
 				(path "/2ec725a5-f70e-4f0c-8c57-7d4984c09f68"
 					(reference "#PWR01")
 					(unit 1)
